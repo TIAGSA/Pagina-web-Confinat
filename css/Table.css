@@ -1,0 +1,43 @@
+.header-nav{
+    flex-direction: row;
+    position: relative;
+    background: none;
+    padding: 0;
+    height: auto;
+}
+.header-nav_visible{
+  display: flex;
+}
+.header-container{
+  justify-content: center;
+}
+.header-container--title{
+  margin-left: 5px;
+}
+.header-nav a{
+  color:#f0f2fa
+}
+.header-nav a:hover{
+  color: #a5b2d4fa ;
+}
+.header-toggle{
+    display: none;
+}
+
+.header-nav li{
+    margin: 0 auto;
+}
+.container-card{
+    margin: 0 auto;
+}
+.container-form{
+  justify-content: center;
+  flex-direction: row;
+}
+.contact-info span{
+    width: 30px;
+    height: 30px;
+}
+.map-container{
+    width: 400px;
+}
